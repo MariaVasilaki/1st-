@@ -1,0 +1,62 @@
+header, footer {
+  background-color: #558000;
+  color:  white;
+  height: 100px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 30px 10px 20px 20px;
+}
+
+
+
+ nav {
+    border-top: thin #0A470A solid;
+    border-bottom: thin #0A470A solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #558000;
+    font-weight: normal;
+  }
+
+  nav .btn {
+    background-color:#0A470A;
+    color: #fef9ff;
+   }
+
+   nav. btn:hover {
+     font-weight: bold;
+   }
+
+   table, th, td {
+       border: 1px solid #558000;
+       border-collapse: collapse;
+       padding: 5px 10px;
+       margin: auto;
+     }
+
+th {
+  font-size: 20px;
+  height: 25px;
+
+}
+
+label {
+  font-weight: bold;
+}
+
+
+nav a:visited {
+    color: #e4c3ad;
+  }
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:active{
+   text-decoration: none;
+}
+
+#oop tr:nth-child(even) {
+  background-color: #d9e6f2
+}
